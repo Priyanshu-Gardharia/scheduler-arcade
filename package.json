@@ -1,0 +1,22 @@
+{
+  "name": "scheduler-arcade",
+  "version": "1.0.0",
+  "description": "Educational 2D CPU Scheduling Arcade Game & Simulation Engine",
+  "main": "src/core/index.js",
+  "scripts": {
+    "test": "node src/core/test.js && node test_step4_game.js && node test_step5_integration.js",
+    "test:core": "node src/core/test.js",
+    "test:game": "node test_step4_game.js",
+    "test:step5": "node test_step5_integration.js"
+  },
+  "keywords": [
+    "cpu-scheduling",
+    "operating-systems",
+    "arcade",
+    "fcfs",
+    "sjf",
+    "round-robin",
+    "priority-scheduling"
+  ],
+  "license": "ISC"
+}
